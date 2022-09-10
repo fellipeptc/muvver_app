@@ -2,6 +2,7 @@ class AppImages{
   static const logo = "assets/images/logo.svg";
   static const deliveryTruck = "assets/images/delivery-truck.png";
   static const icBox = "assets/images/ic-box.png";
+  static const pointerSpot = "assets/images/pointer-spot.png";
   static const photoAvatar = "https://vocesa.abril.com.br/wp-content/uploads/2021/01/Dani-Almeida.jpg?quality=70&strip=info&w=650&resize=1200,800";
 
   static const icAviao = "assets/images/transports/ic_aviao.png";

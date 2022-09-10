@@ -3,6 +3,7 @@ import 'package:muvver_app/app/data/repositories/mock_repository.dart';
 
 import '../../../data/models/transport.dart';
 import '../../../domain/usecases/means_transport_usecase.dart';
+import '../../../routes/app_pages.dart';
 
 class MeansTransportController extends GetxController {
   RxList<Transport> mockTransport = <Transport>[].obs;
@@ -19,6 +20,6 @@ class MeansTransportController extends GetxController {
   void goNextPage(){
     Transport transportSelected = mockTransport[indexSelected.value];
     transportSelected.isSelected = true;
-    Get.toNamed("page", arguments: transportSelected);
+    Get.toNamed(AppRoutes.travelPath, arguments: transportSelected);
   }
 }

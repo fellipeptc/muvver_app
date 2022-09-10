@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:muvver_app/app/ui/modules/means_transport/widgets/transport_item.dart';
+import 'package:muvver_app/app/ui/modules/means_transport/widgets/transport_item_widget.dart';
 import 'package:muvver_app/app/ui/themes/app_text_styles.dart';
 import 'package:muvver_app/app/ui/widgets/appbar/appbar_custom_widget.dart';
 import 'package:muvver_app/app/ui/widgets/button/button_custom_widget.dart';
